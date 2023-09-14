@@ -1,0 +1,9 @@
+ {r}←Div100 lim;n
+ r←0⍴⊂''
+ :For n :In ⍳lim
+     :If 0≠100|n
+         r,←⊂n,'is not divisible by 100'
+     :Else
+         r,←⊂n,'is divisible by 100'
+     :EndIf
+ :EndFor

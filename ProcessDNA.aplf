@@ -1,0 +1,2 @@
+ r←ProcessDNA fasta
+ r←↑Ninemers¨ParseFASTA fasta

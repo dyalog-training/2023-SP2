@@ -1,0 +1,5 @@
+ Ninemers←{
+     name←⊃⍵
+     nines←9 Mers 9 Pad⊃⌽⍵
+     name nines
+ }

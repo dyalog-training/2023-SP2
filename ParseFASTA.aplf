@@ -1,0 +1,7 @@
+ ParseFASTA←{
+     genes←(⊢⊂⍨'>'=⊃¨)⍵
+     Format←{
+         ⊃{(1↓⊃⍺⊆⍨' '≠⍺)⍵}⍥∊/1 1⊂⍵
+     }¨
+     Format genes
+ }

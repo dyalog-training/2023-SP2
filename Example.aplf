@@ -1,0 +1,10 @@
+ r←Example y;z
+ 'It begins!'
+ num←2
+ 10÷num
+ SubFn←{
+     ⍞←⍵
+     ⌽⍵
+ }
+ z←SubFn¨100⍴⎕A
+ r←SubFn¨y

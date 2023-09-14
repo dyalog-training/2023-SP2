@@ -1,0 +1,8 @@
+ n←Hailstone n
+ :While n≠1
+     :If 2|n
+         n←1+3×n
+     :Else
+         n←n÷2
+     :EndIf
+ :EndWhile

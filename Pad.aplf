@@ -1,0 +1,4 @@
+ Pad←{
+     ⍝ Pad ⍵ so ⍺ f/ ⍵ works (see https://apl.wiki/Windowed_Reduce )
+     ((⍺-2)⌈≢⍵)↑⍵,⎕D
+ }
