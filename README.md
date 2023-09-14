@@ -7,7 +7,7 @@
 
 * Dyalog v18.2 or later, any operating system, Unicode/Classic, 32/64 bit ([download here](https://www.dyalog.com/download-zone.htm?p=download))
 * If you are on Linux, also install RIDE ([download here](https://github.com/Dyalog/ride/releases/latest))
-* The contents of this repository; from your APL session, execute the following line:
+* When the workshop begins, get the contents of this repository by executing the following line from your APL session:
   ```
   ]get -u https://github.com/dyalog-training/2023-SP2
   ```
